@@ -1,8 +1,7 @@
 #include <Windows.h>
 #include <iostream>     
 //#include <winternl.h>
-#include "SysWhispers2/indirect_syscalls/evade.h"
-#pragma comment(lib, "ntdll.lib")
+#include "evade.h"
 
 int main(int argc, char* argv[])
 {
